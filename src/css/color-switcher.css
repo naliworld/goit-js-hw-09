@@ -5,11 +5,21 @@
 }
 
 body {
-    position: relative;
     width: 100%;
     margin: 0 auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1;
-    background-color:rgb(210, 168, 194);
+    background-color:azure;
     overflow: hidden;
+}
+
+button {
+    justify-content: center;
+    border: 3px;
+    border-color: coral;
+    padding: 10px;
+    margin: 10px;
+    background: white;
+    transition-duration: 0.4s;
+
 }
